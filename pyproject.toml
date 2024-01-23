@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "simpleufcs"
+version = "1.0.0"
+description = "A simple Uniform Function Call Syntax (UFCS) implementation in python."
+authors = ["lxl66566 <lxl66566@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["ufcs"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
